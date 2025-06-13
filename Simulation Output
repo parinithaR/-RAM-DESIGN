@@ -1,0 +1,9 @@
+ Write Phase:
+  - Address 0x0 => 0xA5
+  - Address 0x1 => 0x5A
+  - Address 0x2 => 0xFF
+ Read Phase:
+  - Address 0x0 should output 0xA5
+  - Address 0x1 should output 0x5A
+  - Address 0x2 should output 0xFF
+  - Address 0x3 outputs undefined (no write occurred)
